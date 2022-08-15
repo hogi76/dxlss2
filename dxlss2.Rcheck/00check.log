@@ -1,0 +1,57 @@
+* using log directory 'E:/ADH/R_my_project/dxlss2/dxlss2.Rcheck'
+* using R version 3.6.3 (2020-02-29)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: CP949
+* using options '--no-manual --as-cran'
+* checking for file 'dxlss2/DESCRIPTION' ... OK
+* this is package 'dxlss2' version '0.0.0.9000'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'dxlss2' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+  license
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'::' or ':::' import not declared from: 'DMwR'
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+prework1: no visible global function definition for '%>%'
+prework1: no visible global function definition for 'select_if'
+prework1: no visible global function definition for 'negate'
+prework1: no visible global function definition for 'distinct'
+prework1: no visible global function definition for 'count'
+prework1: no visible global function definition for 'select'
+prework1: no visible binding for global variable 'useless'
+Undefined global functions or variables:
+  %>% count distinct negate select select_if useless
+* checking for missing documentation entries ... OK
+* checking examples ... NONE
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 2 WARNINGs, 1 NOTE
