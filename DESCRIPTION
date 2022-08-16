@@ -11,20 +11,14 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports:
-   dplyr,
    tidyverse, 
-   readxl,
-   lubridate,
    tree,
    randomForest,
    rpart,
-   gridExtra,
-   Hmisc,
-   car,
    psych,
    caret,
    rpart.plot,
-   dplyr,
+   DMwR2,
    
 
 

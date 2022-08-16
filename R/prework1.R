@@ -1,6 +1,7 @@
 # 1.prework : 결측치제거, 불필요한 문자열 제거 ------------------------------------------
 
 
+
 prework1 = function(raw_dataset){
   mpg_numeric = raw_dataset %>% select_if((is.numeric)) #numeric 열을 제외한 항목
   mpg_notnumeric = raw_dataset %>% select_if((negate(is.numeric))) #numeric 열을 제외한 항목
@@ -21,7 +22,7 @@ prework1 = function(raw_dataset){
   }
 
   dataset = cbind(mpg_numeric,  mpg_notnumeric) #Numeric과 Factor열로 구성
-  dataset = DMwR::centralImputation(dataset) #NA값 제외
+  dataset = DMwR2::centralImputation(dataset) #NA값 제외
 
   return(dataset)
 }
