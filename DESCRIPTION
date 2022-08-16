@@ -11,7 +11,8 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports:
-   ggplot2, 
+   ggplot2,
+   magrittr,
    tree,
    randomForest,
    rpart,
@@ -20,6 +21,7 @@ Imports:
    rpart.plot,
    DMwR2,
    dplyr,
+   
    
 
 
