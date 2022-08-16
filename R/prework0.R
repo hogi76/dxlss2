@@ -1,5 +1,5 @@
 prework0 = function(){
-    RequiredPackages = c('tidyverse', 'tree', 'randomForest', 'rpart', 'psych', 'caret', 'rpart.plot', 'DMwR2')
+    RequiredPackages = c('tidyverse', 'tree', 'randomForest', 'rpart', 'psych', 'caret', 'rpart.plot', 'DMwR2', 'DescTools')
     for (i in RequiredPackages) {
       if (!i %in% row.names(installed.packages())) install.packages(i)
     }
@@ -13,6 +13,7 @@ prework0 = function(){
     library(caret)
     library(rpart.plot)
     library(DMwR2)
+    library(DescTools)
 
 }
 
