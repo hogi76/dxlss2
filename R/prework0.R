@@ -5,9 +5,14 @@ prework0 = function(){
     }
 
 
-    for (i in seq_along(RequiredPackages)){
-      library(RequiredPackages[i])
-    }
+    library(tidyverse)
+    library(tree)
+    library(randomForest)
+    library(rpart)
+    library(psych)
+    library(caret)
+    library(rpart.plot)
+    library(DMwR2)
 
 }
 
