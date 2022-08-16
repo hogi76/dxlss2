@@ -19,7 +19,7 @@ Imports:
    caret,
    rpart.plot,
    DMwR2,
-   dplyr(>=1.0.0),
+   dplyr,
    
 
 
