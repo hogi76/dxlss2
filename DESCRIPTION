@@ -18,7 +18,7 @@ Imports:
     psych,
     caret,
     rpart.plot,
-    DMwR2
+    DMwR2,
     DescTools,
     @importFrom magrittr %>% 
 
