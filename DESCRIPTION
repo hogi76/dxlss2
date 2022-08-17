@@ -20,7 +20,6 @@ Imports:
     rpart.plot,
     DMwR2,
     DescTools,
-    @importFrom magrittr %>% 
 
  
    
