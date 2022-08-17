@@ -3,8 +3,8 @@
 
 
 prework1 = function(raw_dataset){
-  mpg_numeric = raw_dataset %>% select_if((is.numeric)) #numeric 열을 제외한 항목
-  mpg_notnumeric = raw_dataset %>% select_if((negate(is.numeric))) #numeric 열을 제외한 항목
+  mpg_numeric = magrittr::`%>%`(raw_dataset, select_if((is.numeric))) #numeric 열을 제외한 항목
+  mpg_notnumeric = magrittr::`%>%`(raw_dataset, select_if((negate(is.numeric)))) #numeric 열을 제외한 항목
   new_name = vector(length = length(mpg_notnumeric)) # 빈벡터 생성
 
 
