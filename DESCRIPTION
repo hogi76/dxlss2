@@ -20,6 +20,8 @@ Depends:
     rpart.plot,
     DMwR2,
     DescTools,
+    dplyr,
+    ggplot2,
 
  
    
