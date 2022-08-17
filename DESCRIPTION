@@ -20,7 +20,7 @@ Imports:
     rpart.plot,
     DMwR2,
     DescTools,
-depends:
+Depends:
     tidyverse,
     tree,
     randomForest,
