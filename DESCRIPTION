@@ -21,7 +21,8 @@ Depends:
     caret,
     rpart.plot,
     DMwR2,
-    DescTools
+    DescTools,
+    functional
     
     
 
