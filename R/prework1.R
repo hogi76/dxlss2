@@ -18,7 +18,7 @@ prework1 = function(raw_dataset){
   }
 
   dataset = cbind(mpg_numeric,  mpg_notnumeric) #Numeric과 Factor열로 구성
-  dataset = DMwR::centralImputation(dataset) #NA값 제외
+  dataset = centralImputation(dataset) #NA값 제외
 
   return(dataset)
 
