@@ -22,7 +22,7 @@ Depends:
     rpart.plot,
     DMwR2,
     DescTools,
-    functional
+    purrr,
     
     
 
