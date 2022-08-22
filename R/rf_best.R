@@ -47,13 +47,13 @@ rf_best = function(dataset, y){
   pred = predict(rf.train_df, newdata = new_DF) # 결과를 예측합니다
   result = data.frame(new_DF, pred)
   bestcon_up =
-    result %>% arrange(pred) %>% head(10)
-
-  bestcon_down =
     result %>% arrange(desc(pred)) %>% head(10)
 
-  return(list( bestcon_up= bestcon_up,
-               bestcon_down =bestcon_down))
+  bestcon_down =
+    result %>% arrange(pred) %>% head(10)
+
+  return(list( best_condition_up= bestcon_up,
+               best_condition_down =bestcon_down))
 
 
 }

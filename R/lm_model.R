@@ -28,7 +28,7 @@ lm_model = function(dataset, y){
 
 
   # 2-3. 결과를 예측합니다.
-  pred = predict(stepwise.fit, newdata = test_df) # 결과를 예측합니다
+  pred = predict(stepwise.fit, newdata = test_df) %>% head() # 결과를 예측합니다
   lm.MSE = eval(parse( text = paste0('MSE(pred , test_df$',y,')')))  # MSE를 확인합니다
   lm.R_sq = eval(parse( text = paste0('(cor(pred, test_df$',y,'))^2'))) # 설명력을 확인합니다
 

@@ -21,7 +21,7 @@ rf_model = function(dataset, y){
 
 
   # 3-2. 결과를 예측합니다.
-  pred = predict(rf.train_df, newdata = test_df) # 결과를 예측합니다
+  pred = predict(rf.train_df, newdata = test_df)%>% head() # 결과를 예측합니다
 
   B = eval(parse(text = paste0('rpart(',y,' ~. , data = train_df)'))) #그래프분석
   rpart.plot(B)
