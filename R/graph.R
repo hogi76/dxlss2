@@ -1,3 +1,15 @@
+#' Graph the relationship between column y and the rest of the x columns
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns the result of xy_relation
+#' @example
+#' graph(airquality, Ozone)
+
+
+
+
+
 # 관계형 그래프 분석 --------------------------------------------------------------
 
 #전처리한 데이터의 관계를 확인합니다

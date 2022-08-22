@@ -1,3 +1,15 @@
+#' After preprocessing the data, building and evaluating the regression and rf models, the function suggests the optimal condition
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns clean data, modeling and best condition and result
+#' @example
+#' oneshot_model(airquality, Ozone)
+
+
+
+
+
 # oneshot -----------------------------------------------------------------
 
 oneshot_model = function(raw_dataset, y) {

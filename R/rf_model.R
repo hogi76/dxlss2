@@ -1,3 +1,11 @@
+#' Build randomForest models and perform evaluations
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns RF Model
+#' @example
+#' rf_model(airquality, Ozone)
+
 
 # 3. 모델링 2 - RandomForest  ------
 

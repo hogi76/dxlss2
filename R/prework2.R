@@ -1,3 +1,12 @@
+#' Remove outliers and adjust numerous variables to around 10 major variables
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns the result of preprocessing
+#' @example
+#' prework2(airquality, Ozone)
+
+
 # 2.prework2 : outlier제거, 변수최적화 ------------------------------------------
 
 prework2 = function(dataset, y) {

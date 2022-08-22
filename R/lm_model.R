@@ -1,3 +1,14 @@
+#' Build multiple linear regression models and perform evaluations
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns LM Model
+#' @example
+#' lm_model(airquality, Ozone)
+
+
+
+
 # 모델링 ----------------------------------------------------------------------
 
 

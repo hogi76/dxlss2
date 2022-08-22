@@ -1,3 +1,11 @@
+#' Excluding strings of the form of date and id that are unnecessary for analysis, correct missing values with the average value
+#'
+#' @param data raw_dataset
+#' @return Returns the result of preprocessing
+#' @example
+#' prework1(airquality)
+
+
 prework1 = function(raw_dataset){
   mpg_numeric = raw_dataset %>% dplyr::select_if((is.numeric)) #numeric 열을 제외한 항목
   mpg_notnumeric = raw_dataset %>% dplyr::select_if((negate(is.numeric))) #numeric 열을 제외한 항목

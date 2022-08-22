@@ -1,3 +1,12 @@
+#' Based on the rf model and the given data, the optimal result value and the values of x are returned.
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns best condition and result
+#' @example
+#' rf_best(airquality, Ozone)
+
+
 
 # optimal_value_RF --------------------------------------------------------
 

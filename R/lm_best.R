@@ -1,3 +1,13 @@
+#' Based on the regression model and the given data, the optimal result value and the values of x are returned.
+#'
+#' @param data raw_dataset
+#' @param y column you want to improve
+#' @return Returns best condition and result
+#' @example
+#' lm_best(airquality, Ozone)
+
+
+
 # optimal_value_LM --------------------------------------------------------
 
 
